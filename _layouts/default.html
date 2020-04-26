@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.js" defer></script>
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.module.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.6.1/Tone.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js" defer></script>
+    <script src="{{ "/assets/js/script.js" | relative_url }}" defer></script>
+  </head>
+  <body>
+    <div id="Futures"></div>
+    {{ content }}
+  </body>
+</html>

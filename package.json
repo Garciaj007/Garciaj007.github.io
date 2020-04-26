@@ -1,0 +1,14 @@
+{
+    "name": "juriel-garcia",
+    "version": "0.0.1",
+    "description": "A space to place thoughts, and experiences",
+    "authors": [
+        {
+            "name": "Juriel Garcia",
+            "email": "jurielgarcia.pro@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "devDependencies": {
+    }
+}
