@@ -1,3 +1,16 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+# Meta Data
+title: Juriel Garcia, A Thought Space.
+description: > 
+  Hey, Its Juriel I am a 3rd year student studying game, graphics, 
+  and interactive programming. Welcome to a place where I write down my thoughts, 
+  share my knowledge and experiences.
+social_description: >
+  Thoughts, lines of code, & art.
+url: "https://jurielgarcia.dev"
+baseurl: ""
+github_username: garciaj007
+image_url: "/assets/images"
+
+# Build Settings
+exlude: [node_modules]
+

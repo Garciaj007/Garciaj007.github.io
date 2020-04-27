@@ -2,3 +2,7 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+public
+assets/bundle.js
+node_modules
+webpack/entry.js
