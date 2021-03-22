@@ -4,28 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
     <script src="{{ "/assets/js/bundle.js" | relative_url }}" defer></script>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/portfolio">Portfolio</a></li>
-        <li><a href="/cv">CV</a></li>
-      </ul>
-    </nav>
-    <div id="Futures"></div>
+    {% include nav.html %}
     <main>
       <!--  Insert Posts Here   -->
     </main>
-    <footer>
-      <ul>
-        <li><a href="mailto:jurielgarcia.pro@gmail.com">Email</a></li>
-        <li><a href="https://github.com/garciaj007">Github</a></li>
-      </ul>
-    </footer>
   </body>
 </html>

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Rubik");
+
+$margin: 0.8em;
+$padding: 0.4em;
+$border-width: 0.1em;
+$border-radius: 0pt;
+
+$colors: (primary: rgb(32, 32, 32), secondary: rgb(252, 250, 250), accent: rgb(0, 81, 255));
+
+@function getColor($color) {
+    @return map-get($map: $colors, $key: $color);
+}
+
+@function getColorAlpha($color, $alpha) {
+    @return rgba(getColor($color), $alpha);
+}
+
+$fontSizes: (xxs: 0.296em, xs: 0.444em, s: 0.667em, r:1em, m: 1.5em, ml: 2.25em, l: 3.375em, xl: 5.063em, xxl:7.594em);
+
+@function getFont($font, $size, $subsitute: sans-serif){
+    @return map-get($map: $fontSizes, $key: $size) $font, sans-serif;
+}
+
+a{
+    font: getFont("Open Sans", xl, serif);
+}
